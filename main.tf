@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source  = "../module/ec2/"
+  source  = "./module/ec2/"
 
   name = "single-instance"
 
