@@ -7,7 +7,7 @@ module "ec2_instance" {
   instance_type          = "t2.micro"
   key_name               = "user1"
   monitoring             = true
-  vpc_security_group_ids = [""]
+  vpc_security_group_ids = ["sg-0c689f0ed9600d404"]
   subnet_id              = "subnet-01becfe4d413783c4"
 
   tags = {
